@@ -4,8 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>PAK Search</title>
-  <script async src="https://cse.google.com/cse.js?cx=f2dffc3f28d6a4c7a"></script>
-  <style>
+<script async src="https://cse.google.com/cse.js?cx=f2dffc3f28d6a4c7a"></script>
+    <style>
     /* Reset default */
     * {
       margin: 0;
@@ -35,14 +35,20 @@
       animation: slideUp 1s ease-in-out;
     }
 
-    h1 {
+    h1 a {
       font-size: 2rem;
       color: #1a73e8;
-      margin-bottom: 1.5rem;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    h1 a:hover {
+      color: #1558b0;
     }
 
     .gcse-search {
       width: 100%;
+      margin-top: 1.5rem;
     }
 
     @keyframes fadeIn {
@@ -66,7 +72,7 @@
         padding: 1.5rem;
       }
 
-      h1 {
+      h1 a {
         font-size: 1.5rem;
       }
     }
@@ -74,7 +80,7 @@
 </head>
 <body>
   <div class="container">
-    <h1>PAK Search</h1>
+    <h1><a href="https://asadulah222.github.io/Pak-Search">PAK Search</a></h1>
     <div class="gcse-search"></div>
   </div>
 </body>
